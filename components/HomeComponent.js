@@ -12,7 +12,7 @@ function RenderItem({item}) {
                 featuredTitle={item.name}
                 image={require('./images/react-lake.jpg')}>
                 <Text
-                    style={{margin: 10}}>
+                    style={{margin: 20}}>
                     {item.description}
                 </Text>
             </Card>
